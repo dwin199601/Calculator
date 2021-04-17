@@ -1,0 +1,157 @@
+
+
+nav{
+    width: 100%;
+    position: fixed;
+    
+}
+ul.navbar{
+
+margin-top: -10px;
+text-align: center;
+background: black;
+margin-right: 11px;
+min-height: 70px;
+list-style-type: none;
+color: antiquewhite;
+font-size: 20px;
+}
+
+ul.navbar li{
+float: left;
+margin: 10px;
+padding-top: 5px;
+
+
+
+}
+
+header {
+  
+  text-align: center;
+  background: url(../image/image2.jpg) no-repeat top center;
+  background-size: cover;
+  height: 200px;
+  overflow: hidden;
+  padding-top: 60px;
+  margin-right: -5px;
+  color: antiquewhite;
+  line-height: 1.5;
+    }
+
+    header h2{
+        background-color: burlywood;
+        padding: 10px;
+        border-radius: 5px;
+        display: table;
+        margin: 10px auto;
+        color: rgb(248, 252, 252);
+        font-family: 'Antonio', sans-serif;
+        font-weight: bold;
+    }
+
+ul.navbar a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+ul.navbar a:hover{
+    color:white;
+}
+body {
+    background-color: rgb(217, 228, 176);
+    font-family: 'Antonio', sans-serif;
+}
+
+
+main{
+    min-height: 500px;
+}
+
+
+
+
+form {
+   margin-left: 35%;
+}
+
+
+form fieldset{
+    width: 450px;
+    background-color: rgb(49, 8, 102);
+    color: cornsilk;
+    height: 150px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:  darkgoldenrod;
+    box-shadow: 3px 2px 1px 1px rgba(7, 7, 6, 0.781);
+}
+
+form legend {
+    background-color: darkgoldenrod;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(244, 248, 244);
+    font-size: 20px;
+}
+
+form textarea {
+    width: 250px;
+    height: 90px;
+    margin-left: 20%;
+    
+}
+form input.Operands{
+    width: 120px;
+    margin-left: 5px;
+}
+
+
+form label {
+    font-size: 20px;
+    color: white;
+}
+form input#ArithmeticOperators{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(24, 96, 97);
+    color: gold;
+    font-weight: bold;
+}
+form input#ArithmeticOperators:hover {
+    border-width: 2px;
+    border-style: solid;
+    border-color:  darkgoldenrod;
+    
+}
+footer{
+  padding: 20px 0 40px 20px;
+  max-height: 40px;
+  background-color: #222;
+  color: antiquewhite;
+ 
+  text-align: left;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.fotter{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color:  darkgoldenrod;
+    padding-left: 7px;
+    padding-right: 7px;
+    float: right;
+    margin-right: 15px;
+    font-family: 'Antonio', sans-serif;
+
+}
+div.footerclass{
+    text-align: left;
+}

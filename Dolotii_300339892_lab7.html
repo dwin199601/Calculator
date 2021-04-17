@@ -1,0 +1,70 @@
+<!DOCTYPE html  >
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="cssstyle/styles.css" rel="stylesheet">
+        <link href="cssstyle/backgrounddesign.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet"> 
+<script src="allscripts.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul class="navbar">
+            <li><a href="#">Calculator</a></li>
+            <li><a href="https://dwin199601.github.io/Portfolio_website/">Portfolio</a></li>
+            <li><a href="https://dwin199601.github.io/1stProjectWebsite20210416/">Contact</a></li>
+            </ul>
+           </nav> 
+
+        <header>
+           
+            <h2>  Arithmetic Operators with Javascript</h2>
+      
+        </header>
+       <main>
+         <form name ="ArithmeticOperators" action='' method="GET">
+               <fieldset id="infodisplaying">
+                   <legend>Calculation</legend>
+                  
+                   <textarea name ="dispcalculation" rows="10" cols="4" wrap="hard" id="result"></textarea>
+               </fieldset>
+              <fieldset id="inputblock">
+              <legend>Input</legend>
+              <label for="Operands">Operands:</label>
+              
+              <input name="firstelement" id="input1" type="text" class="Operands" placeholder="first value">
+
+              <input name="secondelement"  id="input2" type="text" class="Operands" placeholder="second value">
+            
+              <br>
+              <label for ="ArithmeticOperators">Operator:</label>
+              <input name="sum" value="+" id="ArithmeticOperators" type="button" onclick="addValue()">
+              <input name="multiplication" value="&times" id="ArithmeticOperators" type="button" onclick="multipleValue()">
+              <input name="division" value=":" id="ArithmeticOperators" type="button" onclick="divideValue()">
+              <input name="subtraction" value="-" id="ArithmeticOperators" type="button" onclick="subtractValue()">
+              <input name="clear" value="Reset" id="ArithmeticOperators" type="button" onclick="resetValue()">
+            </fieldset>
+
+           </form> 
+        </main>
+        <footer>
+            <ul>
+                <li><a href="https://www.facebook.com/dwin.dwis" class="fotter" target="_blank">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/oleksandr-dolotii-332a27173/" target="_blank" class="fotter"> Linkedin</a></li>
+                <li><a href="https://app.circleci.com/pipelines/github/dwin199601" target="_blank" class="fotter"> GitHub</a></li>
+            </ul>
+        <div class="footerclass">
+            <p>Call me: <a href="tel:+12368630646"> 236-863-0646</a></p>
+            <p>Text me:<a href="mailto:dwin13672@gmail.com"> dwin13672@gmail.com</a></p>
+        </div>
+        </footer>
+    </body>
+</html>
